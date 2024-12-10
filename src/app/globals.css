@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner{
+  background-image: url("/banner01.jpg");
+  background-size: cover;
+}
+.button1{
+  transition: 0.3s;
+}
