@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 export default function Page(){
   return(
     <>
@@ -29,11 +30,47 @@ export default function Page(){
             </button>
        </div>
     </div>
-    <div className="h-[800px] flex items-center flex-col w-[390px] sm:w-[1349px] bg-gray-200">
-      <div className="bg-gray-300 h-20 flex items-center mt-9 justify-center w-[300px] sm:w-[500px]" >
+    <div className="h-[1200px] sm:h-[950px] flex items-center flex-col w-[390px] sm:w-[1349px]">
+      <div className="h-20 flex items-center mt-9 justify-center w-[300px] sm:w-[500px]" >
         <h1 className="text-3xl sm:text-5xl font-bold ">Coffee & Cakes</h1>
       </div>
-      <div className="h-[600px] bg-slate-400 w-[870px]"></div>
+      <div className="h-[1000px] mt-5 sm:h-[700px] gap-8 grid grid-flow-row grid-cols-1 sm:grid-cols-2 sm:w-[890px]">
+        <div className="h-[500px] flex flex-col sm:h-full w-[270px] sm:w-[420px]">
+          <div className="sm:h-[240px] flex items-end w-full">
+            <Image src={"/pic2.png"} alt="" height={0} width={450}/>
+          </div>
+          <div className="bg-white text-center p-5 sm:p-7 h-[200px] w-full">
+              <p className="text-xs sm:text-base text-gray-600">Quick can manor smart money hopes worth too.
+                 Comfort produce husband boy her had hearing. Law others theirs 
+                 passed but wishes. You day real less till dear read. 
+                 Considered use dispatched melancholy 
+                sympathize discretion led. Oh feel if up to till like.</p>
+            </div>
+            <div className="shadow-lg shadow-gray-400 bg-yellow-700/40 rounded-2xl h-[200px] sm:h-[260px] flex flex-col sm:w-[420px]">
+            <h1 className="text-white text-base sm:text-2xl font-bold text-center sm:mt-4 mt-3 p-5 sm:p-8">
+              Our coffee is rich in flavor and the espresso is a perfect balance of
+               sweetness and acidity that functions well in milk drinks.</h1>
+            </div>
+        </div>
+        <div className="h-[500px] sm:h-full w-[270px] sm:w-[420px]">
+        <div className="shadow-lg shadow-gray-400 bg-yellow-700/60 rounded-2xl h-[200px] sm:h-[240px] flex flex-col sm:w-[420px]">
+            <h1 className="text-white text-base sm:text-2xl font-bold text-center sm:mt-4 mt-3 p-5 sm:p-8">
+            In addition to our own unique line-up of seasonal 
+            Single Origin Drip Coffees, Single Origin Cold Brews</h1>
+            </div>
+            <div className="text-center p-7 sm:p-7 h-[200px] w-full">
+              <p className="text-xs sm:text-base text-gray-600">
+              He an thing rapid these after going drawn or. Timed she his law the spoil round defer.
+               In surprise concerns informed betrayed he learning is ye.
+                Ignorant formerly so ye blessing. He as spoke avoid given downs
+                 money on we. Of properly carriage shutters ye as wandered up 
+                 repeated moreover.</p>
+            </div>
+            <div className="sm:h-[240px] flex items-end w-full">
+            <Image src={"/pic3.png"} alt="" height={0} width={450}/>
+          </div>
+        </div>
+      </div>
     </div>
     </>
   )
