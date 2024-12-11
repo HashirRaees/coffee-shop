@@ -9,3 +9,6 @@
 .button1{
   transition: 0.3s;
 }
+.banner1{
+  background-image: url("/banner02.jpg");
+}
