@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Third from "@/components/Third";
+import Fourth from "@/components/Fourth";
 
 export default function Page() {
   return (
@@ -17,13 +18,13 @@ export default function Page() {
         <div
           className="bg-stone-700 p-6 sm:p-8 gap-4 sm:gap-12 flex flex-col
         absolute top-[130px] sm:top-[188px] opacity-85 
-        left-[60px] sm:left-[120px] rounded-2xl h-[390px]
-         sm:h-[490px] w-[200px] sm:w-[550px]"
+        left-[60px] sm:left-[120px] rounded-2xl h-[350px]
+         sm:h-[490px] w-[250px] sm:w-[550px]"
         >
-          <h1 className="sm:mt-0 mt-4 text-xl sm:text-6xl text-white font-bold ">
+          <h1 className="sm:mt-0 mt-4 text-2xl sm:text-6xl text-white font-bold ">
             Unique Craft Cafe in NYC
           </h1>
-          <p className="text-sm leading-relaxed sm:text-lg text-white font-normal">
+          <p className="text-xs leading-relaxed sm:text-lg text-white font-normal">
             Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus
             dolor. A lacus vestibulum sed arcu non. Dolor magna eget est lorem
             ipsum dolor sit amet consectetur.
@@ -91,7 +92,12 @@ export default function Page() {
           </div>
         </div>
       </div>
+
+      {/*Third Section*/}
       <Third/>
+
+       {/*fourth Section*/}
+       <Fourth/>
     </>
   );
 }

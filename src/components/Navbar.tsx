@@ -12,7 +12,7 @@ export default function Nav() {
           className="sm:ml-20"
         />
         <button>
-          <RiMenuLine size={30} color="gray" className="mr-10 sm:mr-36" />
+          <RiMenuLine size={30} className="mr-10 sm:mr-36" />
         </button>
       </nav>
     </>
