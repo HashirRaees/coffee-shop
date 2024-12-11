@@ -41,7 +41,7 @@ export default function Fourth(){
                 {/*sixth div*/}
                 <div className="bg-stone-950 gap-2 sm:gap-6 flex flex-col items-center justify-center opacity-70 h-[180px] w-[175px] sm:h-[200px] sm:w-[180px] rounded-2xl">
                 <Image src={"/ice cream.png"} alt="" height={0} width={60} className="opacity-100"/>
-                <h1 className="text-white text-lg sm:text-xl sm:font-medium uppercase opacity-100">drinks<br/> % more</h1>
+                <h1 className="text-white text-lg sm:text-xl sm:font-medium uppercase opacity-100">drinks<br/>& more</h1>
                 </div>
             </div>
         </div>
