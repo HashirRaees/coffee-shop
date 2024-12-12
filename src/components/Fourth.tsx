@@ -3,7 +3,7 @@ export default function Fourth() {
   return (
     <>
       {/*Bg Image*/}
-      <div className="banner2 h-[750px] w-[390px] flex sm:justify-end items-center bg-cover sm:h-[600px] sm:w-[1349px]">
+      <div className="banner2 h-[750px] w-[390px] flex sm:justify-end items-center bg-cover sm:h-[774px] sm:w-[1349px]">
         {/*inner divs*/}
         <div className="sm:relative sm:mt-20 sm:h-[500px] h-[600px] gap-3 sm:p-0 p-4 sm:gap-4 grid grid-cols-2 sm:mr-20 sm:grid-cols-3 sm:w-[600px]">
           {/*First div*/}

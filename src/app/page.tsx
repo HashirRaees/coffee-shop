@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Third from "@/components/Third";
 import Fourth from "@/components/Fourth";
+import Populardish from "@/components/Populardish";
 
 export default function Page() {
   return (
@@ -16,9 +17,9 @@ export default function Page() {
       >
         {/*Hero Div*/}
         <div
-          className="bg-stone-700 p-6 sm:p-8 gap-4 sm:gap-12 flex flex-col
-        absolute top-[130px] sm:top-[188px] opacity-85 
-        left-[60px] sm:left-[120px] rounded-2xl h-[350px]
+          className="bg-stone-700 p-6 sm:p-8 gap-4 sm:gap-14 flex flex-col
+        absolute top-[140px] sm:top-[188px] opacity-85 
+        left-[60px] sm:left-[120px] rounded-2xl h-[320px]
          sm:h-[490px] w-[250px] sm:w-[550px]"
         >
           <h1 className="sm:mt-0 mt-4 text-2xl sm:text-6xl text-white font-bold ">
@@ -31,7 +32,7 @@ export default function Page() {
           </p>
           <button
             className="button1 tracking-wider rounded-full text-sm sm:text-base
-             font-semibold h-[40px] sm:h-[60px]
+             font-semibold h-[50px] sm:h-[60px]
               uppercase border-2 sm:w-[45%] border-white text-white hover:bg-white hover:text-stone-700"
           >
             View Menu
@@ -98,6 +99,9 @@ export default function Page() {
 
        {/*fourth Section*/}
        <Fourth/>
+
+       {/*Popular dish section*/}
+       <Populardish/>
     </>
   );
 }
