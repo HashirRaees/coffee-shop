@@ -3,6 +3,7 @@ import Image from "next/image";
 import Third from "@/components/Third";
 import Fourth from "@/components/Fourth";
 import Populardish from "@/components/Populardish";
+import Fifth from "@/components/Fifth";
 
 export default function Page() {
   return (
@@ -102,6 +103,9 @@ export default function Page() {
 
        {/*Popular dish section*/}
        <Populardish/>
+
+       {/*Fifth section*/}
+       <Fifth/>
     </>
   );
 }

@@ -2,7 +2,7 @@ export default function Third(){
     return(
         <>
         {/*Main div*/}
-        <div className="sm:w-[1349px] sm:mt-0 mt-10 w-[390px] h-[1100px] sm:h-[950px]">
+        <div className="sm:w-[1349px] sm:mt-0 mt-10 w-[390px] h-[1100px] sm:h-[990px]">
 
             {/*Bg Image*/}
             <div className="banner1 bg-cover sm:h-[690px] h-[200px] w-[390px] sm:w-[1349px]">
