@@ -4,6 +4,10 @@ import Third from "@/components/Third";
 import Fourth from "@/components/Fourth";
 import Populardish from "@/components/Populardish";
 import Fifth from "@/components/Fifth";
+import Sixth from "@/components/Sixth";
+import Seventh from "@/components/Seventh";
+import Eight from "@/components/Eight";
+import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
@@ -106,6 +110,18 @@ export default function Page() {
 
        {/*Fifth section*/}
        <Fifth/>
+
+       {/*Sixth Section*/}
+       <Sixth/>
+
+       {/*Seventh Section*/}
+       <Seventh/>
+
+       {/*Eight Section*/}
+       <Eight/>
+
+       {/*Footer*/}
+       <Footer/>
     </>
   );
 }

@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-links li{
+    text-decoration:none;
+    color:white;
+    padding: .5rem .3rem;
+    border: 2px solid transparent;
+    transition:.3s;
+}
+.nav-links li:hover{
+    border-top:2px solid burlywood;
+    border-bottom:2px solid burlywood;
+    color: burlywood;
+}
 .banner{
   background-image: url("/banner01.jpg");
   background-size: cover;
@@ -17,4 +29,10 @@
 }
 .banner3{
   background-image: url("/banner04.jpg");
+}
+.banner4{
+  background-image: url("/banner05.jpg");
+}
+.banner5{
+  background-image: url("/pic16.jpg");
 }
