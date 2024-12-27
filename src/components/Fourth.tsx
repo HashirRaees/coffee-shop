@@ -77,9 +77,9 @@ export default function Fourth() {
           </div>
 
           {/*sixth div*/}
-          <div className="bg-stone-950 gap-2 sm:gap-6 flex flex-col items-center justify-center opacity-70 h-[180px] w-[175px] sm:h-[200px] sm:w-[180px] rounded-2xl">
+          <div className="bg-stone-950 gap-2 sm:gap-4 flex flex-col items-center justify-center opacity-70 h-[180px] w-[175px] sm:h-[200px] sm:w-[180px] rounded-2xl">
             <Image
-              src={"/ice cream.png"}
+              src={"/cocktail.png"}
               alt=""
               height={0}
               width={60}
